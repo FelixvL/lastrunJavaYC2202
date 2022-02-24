@@ -1,4 +1,4 @@
-class Demo{       // BO
+class Demo{       // BP
 	public static void main(String[] args){
 		System.out.println("s");
 		R r = new R();
@@ -11,8 +11,10 @@ class Demo{       // BO
 	}
 }
 
-
-class R{
+class Q{
+	void t(){}
+}
+class R extends Q{
 	void t() throws Exception{
 		System.out.println("t");
 		throw new Exception();
