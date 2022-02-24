@@ -1,7 +1,8 @@
-class Demo{       // BF
+class Demo{       // BG
 	public static void main(String[] args){
 		Maker m = new Maker();
 		m.gaan().voortgaan();
+		Fiets f = new Fiets();
 		System.out.println(m.gaan().a++);
 		System.out.println(m.gaan().a++);
 
@@ -18,9 +19,10 @@ class Fiets extends Voertuig{
 }
 
 class Maker{
-	Fiets gaan(){
+	Fiets defiets = new Fiets();
+	Voertuig gaan(){
 		System.out.println("in gaan");
-		return new Fiets();
+		return defiets;
 	}
 
 }
