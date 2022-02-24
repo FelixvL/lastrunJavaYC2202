@@ -1,7 +1,7 @@
-class Demo{       // AL
+class Demo{       // AM
 	static final public void main(String[] ebc){
 		System.out.println("great");
-		Onder b = new Onder();
+		Boven b = new Onder();
 		b.hoi(7);
 	}
 }
