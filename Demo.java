@@ -3,7 +3,7 @@ class Demo{       // BC
 		System.out.println("vrijdag");
 		Fiets f = new Fiets();
 		f.mhhh = 3;
-		Fiets f2 = new Fiets()
+		Fiets f2 = new Fiets();
 		System.out.println(f2.mhhh);
 
 	}
@@ -12,7 +12,7 @@ class Demo{       // BC
 
 class Fiets{
 	int hmmm;
-	static int mhhh = jo;
+	static int mhhh = jo();
 	void Fiets(){
 		System.out.println("maandag");
 	}
