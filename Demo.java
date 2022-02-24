@@ -1,8 +1,9 @@
-class Demo{       // AC
-	int a = hoi();
+class Demo{       // AD
+	static int a = hoi();
+	int b = doei();
 	public static void main(String args[]){
-		new Demo().go();
 		System.out.println("hoi");
+		new Demo().go();
 		new Demo().go();
 	}
 	public void go(){
@@ -10,6 +11,10 @@ class Demo{       // AC
 	}
 	int hoi(){
 		System.out.println("oeps");
+		return 7;
+	}
+	int doei(){
+		System.out.println("anders");
 		return 7;
 	}
 }
