@@ -1,4 +1,4 @@
-class Demo{       // AI
+class Demo{       // AJ
 	static final public void main(String[] ebc){
 		System.out.println("great");
 		Boven b = new Onder();
@@ -14,7 +14,7 @@ class Boven{
 }
 
 class Onder extends Boven{
-	void hoi(){
+	void hoi(int a){
 		System.out.println("ik ben beneden");
 	}
 
