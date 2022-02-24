@@ -1,4 +1,4 @@
-class Demo{       // BJ
+class Demo{       // BM
 	public static void main(String[] args){
 		System.out.println("s");
 		R r = new R();
@@ -11,7 +11,7 @@ class Demo{       // BJ
 class R{
 	void t(){
 		System.out.println("t");
-		throw new RuntimeException();
+		throw new Exception();
 	}
 
 }
