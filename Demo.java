@@ -1,5 +1,5 @@
-class Demo{       // AG
-	static final public void main(String... ebc){
+class Demo{       // AH
+	static final public void main(String ebc...){
 		System.out.println("great");
 	}
 }
