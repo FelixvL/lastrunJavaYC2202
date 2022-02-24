@@ -1,8 +1,10 @@
-class Demo{       // AM
+class Demo{       // AN
 	static final public void main(String[] ebc){
 		System.out.println("great");
-		Boven b = new Onder();
-		b.hoi(7);
+		hoezo().hoi();
+	}
+	static Boven hoezo(){
+		return new Onder();
 	}
 }
 
@@ -14,7 +16,7 @@ class Boven{
 }
 
 class Onder extends Boven{
-	void hoi(int a){
+	void hoi(){
 		System.out.println("ik ben beneden");
 	}
 
