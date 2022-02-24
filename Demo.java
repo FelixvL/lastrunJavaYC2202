@@ -1,10 +1,7 @@
-class Demo{       // BG
+class Demo{       // BI
 	public static void main(String[] args){
 		Maker m = new Maker();
-		m.gaan().voortgaan();
-		Fiets f = new Fiets();
-		System.out.println(m.gaan().a++);
-		System.out.println(m.gaan().a++);
+		(Fiets)m.gaan().voortgaan();
 
 	}
 }
