@@ -16,7 +16,7 @@ class Fiets{
 	void Fiets(){
 		System.out.println("maandag");
 	}
-	int jo(){
+	static int jo(){
 		System.out.println("5");
 		return 6;
 	}
