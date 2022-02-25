@@ -1,26 +1,15 @@
-class Demo{       // CY
+class Demo{       // EA
 	public static void main(String[] args){
-		Koe koe = new Tuin();
-		System.out.println(koe);
-		koe.rennen();
+		int a = 3;
+		int b = 5;
+		switch(a){
+			case b:
+				System.out.println("qq");
+			case 3:
+				System.out.println("AA");
+		}
+		System.out.println("RR");
 
 	}
 }
 
-
-abstract class Koe{
-	public String toString(){
-		return "moeee";
-	}
-	public abstract void rennen(){
-		System.out.println("oei");
-	}
-
-}
-
-
-class Tuin extends Koe{
-	void rennen()throws Error{
-		throw new RuntimeException();
-	}
-}
