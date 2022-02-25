@@ -1,4 +1,4 @@
-class Demo{       // CL
+class Demo{       // CR
 	public static void main(String[] args){
 		Koe koe = new Koe();
 		System.out.println(koe);
@@ -7,7 +7,10 @@ class Demo{       // CL
 }
 
 
-class Koe{
+abstract class Koe{
+	public String toString(){
+		return "moeee";
+	}
 
 }
 
