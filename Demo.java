@@ -1,31 +1,17 @@
-class Demo{       // CK 
+class Demo{       // CL
 	public static void main(String[] args){
-		GGG ggg = new UUU();
-		try{
-			ggg.ggg();
-		}catch(RuntimeException e){
-			System.out.println("iets");
-		}catch(AB a){
-			System.out.println("beter");
-		}finally{
-			System.out.println("niets");
-		}
-		System.out.println("Toch");
+		Koe koe = new Koe();
+		System.out.println(koe);
+
 	}
 }
 
 
-class GGG{
-	void ggg()throws Exception{
-		System.out.println("ggg");
-	}
+class Koe{
 
 }
-class UUU extends GGG{
-	void ggg() throws Exception{
-		throw new AB();
-	}
-	
-}
 
-class AB extends Exception{}
+
+class Tuin extends Koe{
+
+}
