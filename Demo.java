@@ -1,4 +1,4 @@
-class Demo{       // CW
+class Demo{       // CY
 	public static void main(String[] args){
 		Koe koe = new Tuin();
 		System.out.println(koe);
@@ -12,7 +12,7 @@ abstract class Koe{
 	public String toString(){
 		return "moeee";
 	}
-	public void rennen(){
+	public abstract void rennen(){
 		System.out.println("oei");
 	}
 
@@ -20,7 +20,7 @@ abstract class Koe{
 
 
 class Tuin extends Koe{
-	public void rennen(String oei)throws Exception{
-		throw new Exception();
+	void rennen()throws Error{
+		throw new RuntimeException();
 	}
 }
