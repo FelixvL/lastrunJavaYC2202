@@ -1,10 +1,12 @@
-class Demo{       // CH
+class Demo{       // CI
 	public static void main(String[] args)throws Exception{
 		GGG ggg = new UUU();
 		try{
 			ggg.ggg();
 		}catch(RuntimeException e){
 			System.out.println("iets");
+		}catch(AB a){
+			System.out.println("beter");
 		}finally{
 			System.out.println("niets");
 		}
@@ -26,4 +28,4 @@ class UUU extends GGG{
 	
 }
 
-class AB extends RuntimeException{}
+class AB extends Error{}
