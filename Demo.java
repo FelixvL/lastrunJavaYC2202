@@ -1,9 +1,18 @@
-class Demo{       // EI
+class Demo{       // EJ
 	public static void main(String[] args){
-			int[][] anders = {{5,6,7,8},{3},{88,55,33},null,{5,4,2}};
-			System.out.println(anders[0][3]);
+		Go ab = new Eend();
+		ab.wandelen();
 		
 
 	}
 }
 
+interface Go{
+	void wandelen();
+}
+
+class Eend implements Go{
+	void wandelen(){
+		System.out.println("Wandelen in Eend");
+	}
+}
