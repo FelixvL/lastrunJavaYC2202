@@ -1,4 +1,4 @@
-class Demo{       // CK
+class Demo{       // CK 
 	public static void main(String[] args)throws Exception{
 		GGG ggg = new UUU();
 		try{
