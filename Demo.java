@@ -1,5 +1,5 @@
 class Demo{       // CK 
-	public static void main(String[] args)throws Exception{
+	public static void main(String[] args){
 		GGG ggg = new UUU();
 		try{
 			ggg.ggg();
@@ -16,13 +16,13 @@ class Demo{       // CK
 
 
 class GGG{
-	void ggg(){
+	void ggg()throws Exception{
 		System.out.println("ggg");
 	}
 
 }
 class UUU extends GGG{
-	void ggg(){
+	void ggg() throws Exception{
 		throw new AB();
 	}
 	
