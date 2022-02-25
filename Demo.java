@@ -1,4 +1,4 @@
-class Demo{       // CD
+class Demo{       // CE
 	public static void main(String[] args){
 		System.out.println("Dreft");
 		Hoi h = new Hoi();
@@ -16,7 +16,7 @@ class Demo{       // CD
 
 class Hoi{
 	boolean eum;
-	void go(){
+	void go() throws Exception{
 		if(eum){
 			throw new Error(); 
 		}else{
