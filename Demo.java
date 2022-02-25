@@ -1,5 +1,5 @@
-class Demo{       // EP
-	public static void main(String[] args){
+class Demo{       // EQ
+	public static void main(String[] args) throws Exception{
 		Go ab = new Eend();
 		ab.wandelen();
 		Land l = new Land();
@@ -16,7 +16,7 @@ class Land{
 }
 interface Go{
 	public static final int snelheid = 4;
-	void wandelen();
+	void wandelen() throws Exception;
 }
 class Eend implements Go{
 	static int oei = abc();
