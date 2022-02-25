@@ -1,7 +1,7 @@
-class Demo{       // ED
+class Demo{       // EE
 	public static void main(String[] args){
-		for(;;){
-			System.out.println("carnaval!!");
+			int[] anders = new int[];
+			System.out.println("go");
 		}
 
 	}
