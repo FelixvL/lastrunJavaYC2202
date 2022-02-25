@@ -1,23 +1,15 @@
-class Demo{       // BP
+class Demo{       // CA	
 	public static void main(String[] args){
-		System.out.println("s");
-		R r = new R();
-		try{
-			r.t();
-		}catch(Exception e){
-			System.out.println("f");
-		}
-		System.out.println("e");
+		System.out.println("Dreft");
+		Hoi h = new Hoi();
+		h.go();
+		System.out.println("Ariel");
 	}
 }
 
-class Q{
-	void t(){}
-}
-class R extends Q{
-	void t() throws Exception{
-		System.out.println("t");
-		throw new Exception();
+class Hoi{
+	void go(){
+		throw new Error();
 	}
 
 }
