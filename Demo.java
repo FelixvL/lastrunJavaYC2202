@@ -5,7 +5,7 @@ class Demo{       // FC
 		System.out.println(g.rood.a);
 		System.out.println("kleur");
 		g.rood.a();
-		System.out.println(g.rood.a)
+		System.out.println(g.rood.a);
 	}
 }
 
