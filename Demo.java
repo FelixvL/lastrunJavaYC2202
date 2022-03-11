@@ -1,11 +1,7 @@
-class Demo{       // FC
+class Demo{       // FD
 	public static void main(String[] args){
 		Groen g = new Groen();
-		g.rood = new LightRood();
-		System.out.println(g.rood.a);
-		System.out.println("kleur");
-		g.rood.a();
-		System.out.println(g.rood.a);
+		g = new Rood();
 	}
 }
 
