@@ -1,4 +1,4 @@
-class Demo{       // FL
+class Demo{       // FM
 	public static void main(String[] args) throws Exception{
 			System.out.println("b");
 			V v = new V();
@@ -16,7 +16,7 @@ abstract class A{
 }
 
 class D extends A{
-	double a(){
+	double a() throws Exception{
 		System.out.println("a in D");
 		throw new DException();
 	}
