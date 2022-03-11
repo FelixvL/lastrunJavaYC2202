@@ -1,7 +1,7 @@
-class Demo{       // FE
+class Demo{       // FF
 	public static void main(String[] args){
 		Groen g = new Groen();
-		g.rood = new Rood();
+		g.rood = (LightRood)new Rood();
 	}
 }
 
