@@ -1,12 +1,12 @@
-class Demo{       // FD
+class Demo{       // FE
 	public static void main(String[] args){
 		Groen g = new Groen();
-		g = new Rood();
+		g.rood = new Rood();
 	}
 }
 
 class Groen{
-	Rood rood;
+	LightRood rood;
 }
 
 class Rood{
