@@ -1,5 +1,5 @@
-class Demo{       // FK
-	public static void main(String[] args){
+class Demo{       // FL
+	public static void main(String[] args) throws Exception{
 			System.out.println("b");
 			V v = new V();
 			D d = v.zetten();
@@ -29,4 +29,4 @@ class V{
 	
 }
 
-class DException extends RuntimeException{}
+class DException extends Exception{}
