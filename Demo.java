@@ -1,7 +1,7 @@
-class Demo{       // FH
+class Demo{       // FI
 	public static void main(String[] args){
-		R r = new R();
-		P p = (P)r;
+		Y r = new R();
+		S p = (S)r;
 		System.out.println("gelukt");		
 	}
 }
