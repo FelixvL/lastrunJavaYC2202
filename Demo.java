@@ -1,7 +1,7 @@
-class Demo{       // FF
+class Demo{       // FG
 	public static void main(String[] args){
 		Groen g = new Groen();
-		g.rood = (LightRood)new Rood();
+		g.rood = (Rood)new LightRood();
 	}
 }
 
