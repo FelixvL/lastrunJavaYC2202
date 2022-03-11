@@ -1,28 +1,30 @@
-class Demo{       // FI
+class Demo{       // FJ
 	public static void main(String[] args){
-		Y r = new R();
-		S p = (S)r;
-		System.out.println("gelukt");		
+			System.out.println("b");
+			V v = new V();
+			D d = v.zetten();
+			double w = d.a();
+			System.out.println(w);
 	}
 }
-class P{
-}
-class R implements Y{
+abstract class A{
+	double a(){
+		System.out.println("a in A");
+		return 5.6;
+	}
 
-	public void ijen(){
-		System.out.println("ijen in R");
+}
+
+class D extends A{
+	double a(int a){
+		System.out.println("a in D");
+		throw new RuntimeException();
 	}
 }
 
-class U extends R{
-	public void ijen(){
-		System.out.println("ijen in U");
+class V{
+	D zetten(){
+		return new D();
 	}
-}
-interface Y{
-	void ijen();	
-}
-
-interface S{
-
+	
 }
