@@ -1,24 +1,32 @@
-class Demo{       // EW
-	public static void main(String[] args) throws Exception{
-		new Makkelijk();
-		new Makkelijk();
+class Demo{       // FA
+	public static void main(String[] args){
+		Groen g = new Groen();
+		g.rood = new LightRood();
+		System.out.println(g.rood.a);
+		System.out.println("kleur");
+		g.rood.a();
 	}
 }
 
-class Makkelijk{
-	static{
-		System.out.println("c");
+class Groen{
+	Rood rood;
+}
+
+class Rood{
+
+	int a = 34;
+	static int a(){
+		System.out.println("lichtrood");
+		a = 55;
+		return 66;
 	}
-	{
-		System.out.println("b");
-	}
-	Makkelijk(){
-		System.out.println("a");
-	}
-	{
-		System.out.println("d");
-	}
-	static{
-		System.out.println("e");
+}
+
+class LightRood extends Rood{
+	int a = 35;
+	static int a(){
+		System.out.println("lightrood");
+		a = 77;
+		return 89;
 	}
 }
