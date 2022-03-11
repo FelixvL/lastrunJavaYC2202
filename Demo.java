@@ -1,29 +1,28 @@
-class Demo{       // FG
+class Demo{       // FH
 	public static void main(String[] args){
-		Groen g = new Groen();
-		g.rood = (Rood)new LightRood();
+		R r = new R();
+		P p = (P)r;
+		System.out.println("gelukt");		
+	}
+}
+class P{
+}
+class R implements Y{
+
+	public void ijen(){
+		System.out.println("ijen in R");
 	}
 }
 
-class Groen{
-	LightRood rood;
-}
-
-class Rood{
-
-	static int a = 34;
-	static int a(){
-		System.out.println("lightrood");
-		a = 55;
-		return 66;
+class U extends R{
+	public void ijen(){
+		System.out.println("ijen in U");
 	}
 }
+interface Y{
+	void ijen();	
+}
 
-class LightRood extends Rood{
-	static int a = 35;
-	static int a(){
-		System.out.println("lightrood");
-		a = 77;
-		return 89;
-	}
+interface S{
+
 }
